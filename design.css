@@ -149,3 +149,11 @@ li {
   padding-bottom: 0.5em;
 }
 
+.img-logo {
+  height: 16px;
+  margin-right: 5px;
+}
+
+.p-item {
+  margin: 5px;
+}
