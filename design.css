@@ -16,24 +16,6 @@ a:hover {
   /*border-bottom: 1px solid #080;*/
 }
 
-/*
-a:link { 
-  color: #1626BA;
-  border-bottom: 1px dotted  #080;
-}
-a:visited { 
-  color: #A62323;
-  border-bottom: 1px dotted  #040;
-}
-a:visited:hover { 
-  color: #040;
-  border-bottom: 1px solid  #040;
-}
-*/
-/* a:link, a:visited, a:hover, a:active */
-
-
-
 #wholePage {
   margin-left: auto;
   margin-right: auto;
