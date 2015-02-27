@@ -1,0 +1,3 @@
+[submodule "downloads"]
+	path = downloads
+	url = https://github.com/matthias-springer/m-sp.org-downloads.git
