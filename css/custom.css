@@ -1,0 +1,46 @@
+body {
+  font: 12pt/15pt sans-serif;
+  margin: 20px 0;
+  background: #FDFDF0;
+}
+
+ul {
+  padding-left: 16px;
+}
+
+ul li {
+  padding: 0.4em 0;
+}
+
+.list-unstyled li {
+  padding: 0.2em 0;
+}
+
+.spacing a {
+  padding: 0 2px;
+}
+
+.container, .row {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#header-right {
+  margin-top: 20px;
+}
+
+#photo {
+  margin: 20px auto;
+}
+
+@media (max-width: 767px) {
+  #photo {
+    margin: 20px;
+  }
+}
+
+.img-logo {
+  height: 16px;
+  margin-right: 5px;
+}
+

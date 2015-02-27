@@ -1,90 +1,133 @@
 <!DOCTYPE html>
-<html>
-<!-- website design by Ranjit Jhala (http://goto.ucsd.edu/~rjhala/) -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matthias Springer's Homepage</title>
 
-  ga('create', 'UA-57720870-1', 'auto');
-  ga('send', 'pageview');
-</script>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Icon set -->
+    <link href="css/pe-icon-social.css" rel="stylesheet">
+    <!-- Custom -->
+    <link href="css/custom.css" rel="stylesheet">
 
-<head>
-<title>Matthias Springer's Homepage</title>
-<link rel="stylesheet" type="text/css" href="design.css">
-</head>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+                <img src="img/self.jpg" id="photo" alt="Matthias Springer" class="img-circle img-responsive">
+            </div>
+            <div id="header-right" class="col-sm-6 col-md-6 col-lg-6">
+                <h2>Matthias Springer 
+                </h2>
+                <p>Computer Science Master's Student</p>
+                <ul class="list-unstyled">
+                    <li class="spacing">
+                        <a href="https://de.linkedin.com/pub/matthias-springer/7b/164/407" data-app="linkedin://#profile/284049223"><span class="pe-so-linkedin"></span></a>
+                        <a href="http://www.twitter.com/MattSpr" data-app="twitter://user?screen_name=MattSpr"><span class="pe-so-twitter"></span></a>
+                        <a href="https://github.com/matthias-springer/"><span class="pe-so-github"></span></a>
+                        <a href="http://www.google.com/recaptcha/mailhide/d?k=01yNGMcat-qvFFwBnY4tVRgg==&amp;c=CKhTrV14YviX1q9kVxSzkdKRMrA0TbJZhU6sp8MqU5A=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501yNGMcat-qvFFwBnY4tVRgg\75\75\46c\75CKhTrV14YviX1q9kVxSzkdKRMrA0TbJZhU6sp8MqU5A\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                    </li>
+                    <li><a href="http://www.hpi.uni-potsdam.de/">Hasso Plattner Institute</a></li>
+                    <li><a href="http://www.uni-potsdam.de/">University of Potsdam</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <h3>Profile</h3>
+                I am a computer science graduate student, interested in programming languages, virtual machines, execution environments, program transformation and optimization, compilers, web development, algorithm design and database query processing.
+            </div>
+        </div>
 
-<body>
-<div id="wholePage"> 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-<tr><td width=240><img src="self.jpg" height="180"  hspace="10" vspace="30" align="left"></td>
-<td align="left">
-<h1>Matthias Springer <a href="http://www.twitter.com/MattSpr" data-app="twitter://user?screen_name=MattSpr"><img
-  src="http://twitter-badges.s3.amazonaws.com/t_logo-c.png" alt="Follow Matthias Springer on Twitter"/></a>  </font></h1>
-Computer Science Master's student
-<br><a href="http://www.hpi.uni-potsdam.de/">Hasso Plattner Institute</a>
-<br><a href="http://www.uni-potsdam.de/">University of Potsdam</a>
-<br><a href="https://de.linkedin.com/pub/matthias-springer/7b/164/407" data-app="linkedin://#profile/284049223">LinkedIn Profile</a>
-<br><b>Email:</b> <a href="http://www.google.com/recaptcha/mailhide/d?k=01yNGMcat-qvFFwBnY4tVRgg==&amp;c=CKhTrV14YviX1q9kVxSzkdKRMrA0TbJZhU6sp8MqU5A=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501yNGMcat-qvFFwBnY4tVRgg\75\75\46c\75CKhTrV14YviX1q9kVxSzkdKRMrA0TbJZhU6sp8MqU5A\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">(show email address)</a>
-</td>
-</tr>
-</table>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <h3>Projects</h3>
+                <ul>
+                    <li><img src="img/github.png" class="img-logo"><a href="https://github.com/matthias-springer/">matthias-springer on GitHub</a></li>
+                    <li><img src="img/hpi_logo.png" class="img-logo">ContextAmber: a library for context-oriented programming, implemented in Amber Smalltalk. Development is still in progress. <a href="http://m-sp.org/cop-ContextAmber">ContextAmber with Athens Demo</a>, <a href="https://github.com/matthias-springer/cop-ContextAmber">Source Code</a></li>
+                    <li><img src="img/gsoc.png" class="img-logo">Implementation of the Athens vector graphics library in Amber Smalltalk, a Smalltalk execution environment running entirely in the web browser, using HTML5 Canvas. Developed a Morphic-like framework for building user interfaces on top of Athens. (Google Summer of Code 2013 project): <a href="http://matthias-springer.github.io/amber-athens">Live Demo</a>, <a href="http://matthias-springer.github.io/amber-athens/morphic.html">Morphic Demo</a>, <a href="http://amber-athens-blog.m-sp.org">Project Development Blog</a>, <a href="https://github.com/matthias-springer/amber-athens">Source Code</a></li>
+                    <li><img src="img/hpi_logo.png" class="img-logo">MagLev Database Explorer: an IDE running entirely in a web browser for exploring Ruby/Smalltalk objects persisted in a GemStone/S 64 image, writing Ruby/Smalltalk code, and debugging Rails/Sinatra applications interactively. Built with Amber Smalltalk, Ruby on Rails, and Twitter Bootstrap. <a href="https://github.com/matthias-springer/maglev-database-explorer-gem">Source Code</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/9nAkiwbZZEQ" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/27mS1BNP7wQ" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
 
-<br clear="left" />
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <h3>Selected Coursework</h3>
+                <ul>
+                    <li><img src="img/hpi_logo.png" class="img-logo">HPI Seminar Non-uniform Memory Access: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhMDNZMmxvQVZQQmc/view?usp=sharing">OpenMP - an overview</a></li>
+                    <li><img src="img/hpi_logo.png" class="img-logo">HPI Seminar Context-oriented Programming: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhZG1VbU9IV1o1ckE/view?usp=sharing">ContextAmber - A COP Implementation for Amber Smalltalk (with focus on method inlining)</a></li>
+                    <li><img src="img/hpi_logo.png" class="img-logo">HPI Seminar Virtual Machines and Execution Environments: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhTUE5dVF6c2xaOTA/view?usp=sharing">Overview of the Truffle AST Interpreter Framework</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhekhFSEN1YWQ4Yms/view?usp=sharing">Exploring JRuby, Truffle, and Graal</a></li>
+                    <li><img src="img/ucsd_logo.png" class="img-logo">UCSD CSE 190: Linear Programming: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhUmswSUx4VnhUc00/view?usp=sharing">Final Exam</a></li>
+                    <li><img src="img/ucsd_logo.png" class="img-logo">UCSD CSE 202: Algorithm Design and Analysis: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4Rhc3NtWUxCZkZHZGc/view?usp=sharing">Homework 1</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhVVdndHRYZGVxVFE/view?usp=sharing">Homework 2</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhSnZFUmE4YmkyVVk/view?usp=sharing">Homework 3</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhLU1jMkt4ZXpGSXM/view?usp=sharing">Homework 4</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhUzgxQ3V3eG1TbTg/view?usp=sharing">Final Exam</a></li>
+                    <li><img src="img/ucsd_logo.png" class="img-logo">UCSD CSE 260: Parallel Computation: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhWE9qUGkzYms1RFE/view?usp=sharing">Double-precision General Matrix Multiply (DGEMM)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhZGg2R2ZhV0V3ZUE/view?usp=sharing">Double-precision Matrix Multiply on CUDA</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhYWJsbTgzVmhHWVk/view?usp=sharing">Many Body Simulation with MPI</a></li>
+                    <li><img src="img/ucsd_logo.png" class="img-logo">UCSD CSE 190: Database Analytics: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhTkFYN0ZDNWVRVEk/view?usp=sharing">Project Report</a></li>
+                    <li><img src="img/ucsd_logo.png" class="img-logo">UCSD CSE 203A: Advanced Algorithms: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhbTlPaEcyUy1NTmc/view?usp=sharing">Lecture Notes (Minimum Feedback Vertex Set, Cyclomatic Number, Approximation Algorithm via Layering)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhcjVTUGNsQV9VOVk/view?usp=sharing">Project (Decomposition Trees, Oblivious Routing, minimizing congestion in multicommodity flow networks (approximation algorithm))</a></li>
+                    <li><img src="img/ucsd_logo.png" class="img-logo">UCSD CSE 231: Compiler Construction: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhemZWSjJrOU1HRnM/view?usp=sharing">LLVM passes for collecting static, dynamic and branch instruction execution statistics</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhUW9ha3JIdEJSSkU/view?usp=sharing">Optimistic control-flow-based program analysis and optimization framework for LLVM</a></li>
+                    <li><img src="img/hpi_logo.png" class="img-logo">HPI Bachelor's Thesis: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhRWNSRGktZHBILVE/view?usp=sharing">Intra-language Collaboration in an Object-oriented Virtual Machine</a></li>
+                    <li><img src="img/hpi_logo.png" class="img-logo">HPI Seminar Advanced Modularity: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhSWhUY29mVnRpWkk/view?usp=sharing">Modularization of cross-cutting concerns with Aspect-Oriented Programming and Context-Oriented Programming (Presentation)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhMUV0cmdFNWN0aGc/view?usp=sharing">Paper</a></li>
+                    <li><img src="img/up_logo.png" class="img-logo">IfI Seminar Stochastic Optimization: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhdFFVZDN2Qnk5TW8/view?usp=sharing">Solving satisfiabilty with Ant Colony Optimization and Genetic Algorithms</a></li>
+                    <!--<li><img src="img/hpi_logo.png" class="img-logo">HPI Lecture Economic Basics: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhNlE1c1NNUkFrWWM/view?usp=sharing">Ambidextrie (German)</a></li>-->
+                    <!--<li><img src="img/hpi_logo.png" class="img-logo">HPI Lecture Discrete Structures and Logic: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhMWxEMTVvTUhxRm8/view?usp=sharing">Relationen (German)</a></li>-->
+                    <li><img src="img/hpi_logo.png" class="img-logo">HPI Seminar Subject-specific English: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhWGd1UzY2bm90dE0/view?usp=sharing">Turing machines</a></li>
+                    <!--<li><img src="img/hpi_logo.png" class="img-logo">HPI Lecture Programming Concepts: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhMWlBWXRDWjJmUW8/view?usp=sharing">Partial Correctness Assertions (German)</a></li>-->
+                    <li><img src="img/hpi_logo.png" class="img-logo">HPI Seminar Advanced Topics in Internet and WWW Technologies: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4Rham9QVVlsTVdMdE0/view?usp=sharing">Presentation Grails (German)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhVEk3Y0JGTnFnWGs/view?usp=sharing">Project Grails</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhM2ppYVJ5NTBPa1U/view?usp=sharing">Paper Grails (German)</a></li>
+                    <li><img src="img/hpi_logo.png" class="img-logo">HPI Seminar Subject-specific English: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhMkhSTG14cTUxR00/view?usp=sharing">Simulated Annealing</a></li>
+                    <li><img src="img/hpi_logo.png" class="img-logo">HPI Lecture Software Architecture: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhNDE1b0NUanNRVms/view?usp=sharing">Space CleanUp - Spieleprogrammierung und Softwarearchitektur in Squeak (German)</a></li>
+                    <li><img src="img/hpi_logo.png" class="img-logo">HPI Lecture Designing Interactive Systems: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhTXJmMUhBMkFxZU0/view?usp=sharing">picoUML</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhM2Q1VXk2N21tNEk/view?usp=sharing">Presentation</a></li>
+                    <li><img src="img/hpi_logo.png" class="img-logo">HPI Database Seminar: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhazkyUUdZR01xQkk/view?usp=sharing">Generalized Search Trees for Database Systems (GiST) Presentation</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhODMxOVhvLWxKU3c/view?usp=sharing">Paper</a></li>
+                    <li><img src="img/hpi_logo.png" class="img-logo">HPI Lecture Software Engineering: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhTnNNYkJsbDB0Uzg/view?usp=sharing">Software-Entwicklungsprozesse in Seaside und JavaScript (German)</a></li>
+                    <!--<li><img src="hpi_logo.png" class="img-logo">HPI Seminar Cops and Robbers: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhTFFqOVhXa2FMMG8/view?usp=sharing">Security Issues of Social Websites</a></li>-->
+                </ul>
+            </div>
+        </div>
 
-<h2><a href="http://www.m-sp.org/downloads/cv_en.pdf">Curriculum Vitae (CV)</a></h2>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <h3>Competitions (German)</h3>
+                <ul>
+                    <li><img src="img/informaticup.gif" class="img-logo">informatiCup 2012 (Shopping Tour): <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhRldfT1I1NWZCVUU/view?usp=sharing">Documentation</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhSVhMYUc0a3JQaE0/view?usp=sharing">Windows Executable</a></li>
+                    <li><img src="img/informaticup.gif" class="img-logo">informatiCup 2011 (ATM): <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhdU9VM1o2eWItTmM/view?usp=sharing">Challenge</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhV1E2ZnlsQlExVTA/view?usp=sharing">Source Code</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhbFhsR3BzTGhtZzQ/view?usp=sharing">Binaries</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhMGc1QTc2c1dyTE0/view?usp=sharing">Presentation (Prezi)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhOWxnaGRqRWFWRms/view?usp=sharing">Presentation (PDF)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhZkV4QzdqZnpCdU0/view?usp=sharing">Documentation</a></li>
+                    <li><img src="img/bwinf_logo.gif" class="img-logo">28th German Federal Competition in Computer Science (final round): <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhcGhmSGJXbUtrOVk/view?usp=sharing">Preparation</a></li>
+                    <li><img src="img/bwinf_logo.gif" class="img-logo">28th German Federal Competition in Computer Science (2nd round): <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhTndtSUN6M2VKOE0/view?usp=sharing">Challenge</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhZDJPbmYwNGhTVm8/view?usp=sharing">Solution</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhTjFoWTlpN1ZpOE0/view?usp=sharing">Universeller &Ouml;ffnungcode (Documentation)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhbTdzRktINGREckk/view?usp=sharing">Das Turmrestaurant (Documentation)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhWVdIekZmOEdscFk/view?usp=sharing">Evaluation</a></li>
+                    <li><img src="img/bwinf_logo.gif" class="img-logo">28th German Federal Competition in Computer Science (1st round): <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhbkItWENNcGpKdXc/view?usp=sharing">Challenge</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhVHEwQ3JzRy1obHc/view?usp=sharing">Solution</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhWHhLTGFsX25CRkU/view?usp=sharing">Pizza-Service (Documentation)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4Rha2FRb3FhN1ZwSFU/view?usp=sharing">Handytasten (Documentation)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhZHZMQ3NMV0s0ZW8/view?usp=sharing">Wegfehler (Documentation)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RheVJndnRRNU1vWms/view?usp=sharing">EU-WAN (Documentation)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhMGRYTlVqYlZMV3c/view?usp=sharing">Teleskop (Documentation)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhR0trbVg3bEQxdEk/view?usp=sharing">Evaluation</a></li>
+                    <li><img src="img/bwinf_logo.gif" class="img-logo">Other German Federal Competition in Computer Science: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhM3RWLVJ4UHUxeFU/view?usp=sharing">Challenge (27/2)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhYWhMWE84TUZlOXM/view?usp=sharing">Solution (27/2)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhOHJhZm1aaS1JdXM/view?usp=sharing">Evaluation (27/2)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhVXpSV1dudllnbGM/view?usp=sharing">Challenge (27/1)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhSjFEQktiTHRMWG8/view?usp=sharing">Solution (27/1)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RheDFMcmY2QnJpcmc/view?usp=sharing">Evaluation (27/1)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhcWxDdGZvUTlyUGc/view?usp=sharing">Challenge (26/2)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhbG84MjRULUI5Q2M/view?usp=sharing">Solution (26/2)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhZGxLUXJSZVoyN0k/view?usp=sharing">Evaluation (26/2)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4Rham15cTUzZFB0Q1k/view?usp=sharing">Challenge (26/1)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4Rhb1I3bVdlaUkyZ2s/view?usp=sharing">Solution (26/1)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhTjVmREx2b2FkZkU/view?usp=sharing">Evaluation (26/1)</a></li>
+                </ul>
+            </div>
+        </div>
 
-<h2>Profile</h2>
-<p>I am a computer science graduate student, interested in programming languages, virtual machines, execution
-environments, program transformation and optimization, compilers, web development, algorithm design and
-database query processing.</p>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                <h6>&copy; Matthias Springer 2015</h6>
+            </div>
+        </div>
+    </div>
 
-<h2>Projects</h2>
-<p class="p-item"><img src="github.png" class="img-logo"><a href="https://github.com/matthias-springer/">matthias-springer on GitHub</a></p>
-<p class="p-item"><img src="hpi_logo.png" class="img-logo">ContextAmber: a library for context-oriented programming, implemented in Amber Smalltalk. Development is still in progress. <a href="http://m-sp.org/cop-ContextAmber">ContextAmber with Athens Demo</a>, <a href="https://github.com/matthias-springer/cop-ContextAmber">Source Code</a></p>
-<p class="p-item"><img src="gsoc.png" class="img-logo">Implementation of the Athens vector graphics library in Amber Smalltalk, a Smalltalk execution environment running entirely in the web browser, using HTML5 Canvas. Developed a Morphic-like framework for building user interfaces on top of Athens. (Google Summer of Code 2013 project): <a href="http://matthias-springer.github.io/amber-athens">Live Demo</a>, <a href="http://matthias-springer.github.io/amber-athens/morphic.html">Morphic Demo</a>, <a href="http://amber-athens-blog.m-sp.org">Project Development Blog</a>, <a href="https://github.com/matthias-springer/amber-athens">Source Code</a></p>
-<p class="p-item"><img src="hpi_logo.png" class="img-logo">MagLev Database Explorer: an IDE running entirely in a web browser for exploring Ruby/Smalltalk objects persisted in a GemStone/S 64 image, writing Ruby/Smalltalk code, and debugging Rails/Sinatra applications interactively. Built with Amber Smalltalk, Ruby on Rails, and Twitter Bootstrap. <a href="https://github.com/matthias-springer/maglev-database-explorer-gem">Source Code</a></p>
-
-<p><iframe width="420" height="315" src="http://www.youtube.com/embed/9nAkiwbZZEQ" frameborder="0" allowfullscreen></iframe> <iframe width="560" height="315" src="http://www.youtube.com/embed/27mS1BNP7wQ" frameborder="0" allowfullscreen></iframe></p>
-
-<h2>Selected Coursework</h2>
-<p class="p-item"><img src="hpi_logo.png" class="img-logo">HPI Seminar Non-uniform Memory Access: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhMDNZMmxvQVZQQmc/view?usp=sharing">OpenMP - an overview</a></p>
-<p class="p-item"><img src="hpi_logo.png" class="img-logo">HPI Seminar Context-oriented Programming: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhZG1VbU9IV1o1ckE/view?usp=sharing">ContextAmber - A COP Implementation for Amber Smalltalk (with focus on method inlining)</a></p>
-<p class="p-item"><img src="hpi_logo.png" class="img-logo">HPI Seminar Virtual Machines and Execution Environments: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhTUE5dVF6c2xaOTA/view?usp=sharing">Overview of the Truffle AST Interpreter Framework</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhekhFSEN1YWQ4Yms/view?usp=sharing">Exploring JRuby, Truffle, and Graal</a></p>
-<p class="p-item"><img src="ucsd_logo.png" class="img-logo">UCSD CSE 190: Linear Programming: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhUmswSUx4VnhUc00/view?usp=sharing">Final Exam</a></p>
-<p class="p-item"><img src="ucsd_logo.png" class="img-logo">UCSD CSE 202: Algorithm Design and Analysis: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4Rhc3NtWUxCZkZHZGc/view?usp=sharing">Homework 1</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhVVdndHRYZGVxVFE/view?usp=sharing">Homework 2</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhSnZFUmE4YmkyVVk/view?usp=sharing">Homework 3</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhLU1jMkt4ZXpGSXM/view?usp=sharing">Homework 4</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhUzgxQ3V3eG1TbTg/view?usp=sharing">Final Exam</a></p>
-<p class="p-item"><img src="ucsd_logo.png" class="img-logo">UCSD CSE 260: Parallel Computation: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhWE9qUGkzYms1RFE/view?usp=sharing">Double-precision General Matrix Multiply (DGEMM)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhZGg2R2ZhV0V3ZUE/view?usp=sharing">Double-precision Matrix Multiply on CUDA</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhYWJsbTgzVmhHWVk/view?usp=sharing">Many Body Simulation with MPI</a></p>
-<p class="p-item"><img src="ucsd_logo.png" class="img-logo">UCSD CSE 190: Database Analytics: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhTkFYN0ZDNWVRVEk/view?usp=sharing">Project Report</a></p>
-<p class="p-item"><img src="ucsd_logo.png" class="img-logo">UCSD CSE 203A: Advanced Algorithms: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhbTlPaEcyUy1NTmc/view?usp=sharing">Lecture Notes (Minimum Feedback Vertex Set, Cyclomatic Number, Approximation Algorithm via Layering)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhcjVTUGNsQV9VOVk/view?usp=sharing">Project (Decomposition Trees, Oblivious Routing, minimizing congestion in multicommodity flow networks (approximation algorithm))</a></p>
-<p class="p-item"><img src="ucsd_logo.png" class="img-logo">UCSD CSE 231: Compiler Construction: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhemZWSjJrOU1HRnM/view?usp=sharing">LLVM passes for collecting static, dynamic and branch instruction execution statistics</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhUW9ha3JIdEJSSkU/view?usp=sharing">Optimistic control-flow-based program analysis and optimization framework for LLVM</a></p>
-<p class="p-item"><img src="hpi_logo.png" class="img-logo">HPI Bachelor's Thesis: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhRWNSRGktZHBILVE/view?usp=sharing">Intra-language Collaboration in an Object-oriented Virtual Machine</a></p>
-<p class="p-item"><img src="hpi_logo.png" class="img-logo">HPI Seminar Advanced Modularity: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhSWhUY29mVnRpWkk/view?usp=sharing">Modularization of cross-cutting concerns with Aspect-Oriented Programming and Context-Oriented Programming (Presentation)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhMUV0cmdFNWN0aGc/view?usp=sharing">Paper</a></p>
-<p class="p-item"><img src="up_logo.png" class="img-logo">IfI Seminar Stochastic Optimization: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhdFFVZDN2Qnk5TW8/view?usp=sharing">Solving satisfiabilty with Ant Colony Optimization and Genetic Algorithms</a></p>
-<!--<p class="p-item"><img src="hpi_logo.png" class="img-logo">HPI Lecture Economic Basics: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhNlE1c1NNUkFrWWM/view?usp=sharing">Ambidextrie (German)</a></p>-->
-<!--<p class="p-item"><img src="hpi_logo.png" class="img-logo">HPI Lecture Discrete Structures and Logic: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhMWxEMTVvTUhxRm8/view?usp=sharing">Relationen (German)</a></p>-->
-<p class="p-item"><img src="hpi_logo.png" class="img-logo">HPI Seminar Subject-specific English: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhWGd1UzY2bm90dE0/view?usp=sharing">Turing machines</a></p>
-<!--<p class="p-item"><img src="hpi_logo.png" class="img-logo">HPI Lecture Programming Concepts: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhMWlBWXRDWjJmUW8/view?usp=sharing">Partial Correctness Assertions (German)</a></p>-->
-<p class="p-item"><img src="hpi_logo.png" class="img-logo">HPI Seminar Advanced Topics in Internet and WWW Technologies: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4Rham9QVVlsTVdMdE0/view?usp=sharing">Presentation Grails (German)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhVEk3Y0JGTnFnWGs/view?usp=sharing">Project Grails</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhM2ppYVJ5NTBPa1U/view?usp=sharing">Paper Grails (German)</a></p>
-<p class="p-item"><img src="hpi_logo.png" class="img-logo">HPI Seminar Subject-specific English: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhMkhSTG14cTUxR00/view?usp=sharing">Simulated Annealing</a></p>
-<p class="p-item"><img src="hpi_logo.png" class="img-logo">HPI Lecture Software Architecture: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhNDE1b0NUanNRVms/view?usp=sharing">Space CleanUp - Spieleprogrammierung und Softwarearchitektur in Squeak (German)</a></p>
-<p class="p-item"><img src="hpi_logo.png" class="img-logo">HPI Lecture Designing Interactive Systems: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhTXJmMUhBMkFxZU0/view?usp=sharing">picoUML</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhM2Q1VXk2N21tNEk/view?usp=sharing">Presentation</a></p>
-<p class="p-item"><img src="hpi_logo.png" class="img-logo">HPI Database Seminar: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhazkyUUdZR01xQkk/view?usp=sharing">Generalized Search Trees for Database Systems (GiST) Presentation</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhODMxOVhvLWxKU3c/view?usp=sharing">Paper</a></p>
-<p class="p-item"><img src="hpi_logo.png" class="img-logo">HPI Lecture Software Engineering: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhTnNNYkJsbDB0Uzg/view?usp=sharing">Software-Entwicklungsprozesse in Seaside und JavaScript (German)</a></p>
-<!--<p class="p-item"><img src="hpi_logo.png" class="img-logo">HPI Seminar Cops and Robbers: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhTFFqOVhXa2FMMG8/view?usp=sharing">Security Issues of Social Websites</a></p>-->
-
-<h2>Competitions (German)</h2>
-<p class="p-item"><img src="informaticup.gif" class="img-logo">informatiCup 2012 (Shopping Tour): <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhRldfT1I1NWZCVUU/view?usp=sharing">Documentation</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhSVhMYUc0a3JQaE0/view?usp=sharing">Windows Executable</a></p>
-<p class="p-item"><img src="informaticup.gif" class="img-logo">informatiCup 2011 (ATM): <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhdU9VM1o2eWItTmM/view?usp=sharing">Challenge</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhV1E2ZnlsQlExVTA/view?usp=sharing">Source Code</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhbFhsR3BzTGhtZzQ/view?usp=sharing">Binaries</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhMGc1QTc2c1dyTE0/view?usp=sharing">Presentation (Prezi)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhOWxnaGRqRWFWRms/view?usp=sharing">Presentation (PDF)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhZkV4QzdqZnpCdU0/view?usp=sharing">Documentation</a></p>
-<p class="p-item"><img src="bwinf_logo.gif" class="img-logo">28th German Federal Competition in Computer Science (final round): <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhcGhmSGJXbUtrOVk/view?usp=sharing">Preparation</a></p>
-<p class="p-item"><img src="bwinf_logo.gif" class="img-logo">28th German Federal Competition in Computer Science (2nd round): <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhTndtSUN6M2VKOE0/view?usp=sharing">Challenge</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhZDJPbmYwNGhTVm8/view?usp=sharing">Solution</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhTjFoWTlpN1ZpOE0/view?usp=sharing">Universeller &Ouml;ffnungcode (Documentation)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhbTdzRktINGREckk/view?usp=sharing">Das Turmrestaurant (Documentation)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhWVdIekZmOEdscFk/view?usp=sharing">Evaluation</a></p>
-<p class="p-item"><img src="bwinf_logo.gif" class="img-logo">28th German Federal Competition in Computer Science (1st round): <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhbkItWENNcGpKdXc/view?usp=sharing">Challenge</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhVHEwQ3JzRy1obHc/view?usp=sharing">Solution</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhWHhLTGFsX25CRkU/view?usp=sharing">Pizza-Service (Documentation)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4Rha2FRb3FhN1ZwSFU/view?usp=sharing">Handytasten (Documentation)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhZHZMQ3NMV0s0ZW8/view?usp=sharing">Wegfehler (Documentation)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RheVJndnRRNU1vWms/view?usp=sharing">EU-WAN (Documentation)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhMGRYTlVqYlZMV3c/view?usp=sharing">Teleskop (Documentation)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhR0trbVg3bEQxdEk/view?usp=sharing">Evaluation</a></p>
-<p class="p-item"><img src="bwinf_logo.gif" class="img-logo">Other German Federal Competition in Computer Science: <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhM3RWLVJ4UHUxeFU/view?usp=sharing">Challenge (27/2)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhYWhMWE84TUZlOXM/view?usp=sharing">Solution (27/2)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhOHJhZm1aaS1JdXM/view?usp=sharing">Evaluation (27/2)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhVXpSV1dudllnbGM/view?usp=sharing">Challenge (27/1)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhSjFEQktiTHRMWG8/view?usp=sharing">Solution (27/1)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RheDFMcmY2QnJpcmc/view?usp=sharing">Evaluation (27/1)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhcWxDdGZvUTlyUGc/view?usp=sharing">Challenge (26/2)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhbG84MjRULUI5Q2M/view?usp=sharing">Solution (26/2)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhZGxLUXJSZVoyN0k/view?usp=sharing">Evaluation (26/2)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4Rham15cTUzZFB0Q1k/view?usp=sharing">Challenge (26/1)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4Rhb1I3bVdlaUkyZ2s/view?usp=sharing">Solution (26/1)</a>, <a href="https://drive.google.com/file/d/0BzXnSAWZ_4RhTjVmREx2b2FkZkU/view?usp=sharing">Evaluation (26/1)</a></p>
-</div>
-
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/core.js"></script>
-
-</body>
+    <!-- Load JS files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
 </html>
