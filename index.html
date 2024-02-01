@@ -24,7 +24,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4 col-md-4 col-lg-4 text-center">
-                <img style="margin-top:55px; width: 180px" src="img/self.jpg" id="photo" alt="Matthias Springer" class="img-circle img-responsive">
+                <img style="margin-top:55px; width: 180px" src="img/self.png" id="photo" alt="Matthias Springer" class="img-circle img-responsive">
             </div>
             <div id="header-right" class="col-sm-8 col-md-8 col-lg-8">
                 <h2>Matthias Springer 
@@ -45,7 +45,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
                 <h3 align="center">Profile</h3>
-                I am a software engineer at Google Switzerland. I was previously a doctoral student at Tokyo Institute of Technology, working on programming models and memory access optimizations for object-oriented SIMD/GPU code. I am interested in programming languages, compilers and interpreters, virtual machines, program transformations and optimizations, deep learning and database query processing.
+                I am a senior software engineer at Google Switzerland. I was previously a doctoral student at Tokyo Institute of Technology, working on programming models and memory access optimizations for object-oriented SIMD/GPU code. I am interested in programming languages, compilers and interpreters, virtual machines, program transformations and optimizations, deep learning and database query processing.
             </div>
         </div>
         <div class="row">
@@ -58,6 +58,36 @@
                 <h3 align="center"><a href="https://scholar.google.co.jp/citations?user=EvHvYtMAAAAJ"><i class="glyphicon glyphicon-education"></i> Publications</a></h3>
                 <ul>
                     <li><div id="viewport"><img src="img/github.png" class="img-logo"><span><a href="https://github.com/matthias-springer/">matthias-springer on GitHub</a></span></div></li>
+                    <hr/>
+                    <section id="mlir">
+                    <li><div id="viewport"><img src="img/mlir_logo.png" class="img-logo"><span><b>MLIR:</b> Mixed-Level Intermediate Representation (LLVM Project)
+                    <dl>
+                        <dt><small>LLVM Dev Meeting 2023</small></dt>
+                        <dd>
+                        <small>Matthias Springer and Martin Erhart. <b>MLIR Bufferization: From Tensors to MemRefs</b> (<a href="downloads/llvm_dev_2023.pdf">Slides</a>). In 2023 LLVM Developers' Meeting (Tutorial). Santa Clara, CA, USA. October 12 , 2023.</small>
+                        </dd>
+                        <dt><small>LCPC 2022</small></dt>
+                        <dd><small>Nicolas Vasilache, Oleksandr Zinenko, Aart J. C. Bik, Mahesh Ravishankar, Thomas Raoux, Alexander Belyaev, Matthias Springer, Tobias Gysi, Diego Caballero, Stephan Herhut, Stella Laurenzo and Albert Cohen: <b><a href="https://link.springer.com/content/pdf/10.1007/978-3-031-31445-2.pdf">Structured Operations: Modular Design of Code Generators for Tensor Compilers</a></b>. In Languages and Compilers for Parallel Computing (LCPC) 2022,  Lecture Notes in Computer Science, vol 13829. Springer, Cham.</small></dd>
+                        <dt><small>Tech Report</small></dt>
+                        <dd><small>Nicolas Vasilache, Oleksandr Zinenko, Aart J. C. Bik, Mahesh Ravishankar, Thomas Raoux, Alexander Belyaev, Matthias Springer, Tobias Gysi, Diego Caballero, Stephan Herhut, Stella Laurenzo and Albert Cohen: <b><a href="https://arxiv.org/abs/2202.03293">Composable and Modular Code Generation in MLIR: A Structured and Retargetable Approach to Tensor Compiler Construction</a></b>. arXiv 2202.03293, 2022.</small></dd>
+                        <dt><small>Open Design Meeting</small></dt>
+                        <dd>
+                        <small>Matthias Springer and Nicolas Vasilache. <b>One-Shot Function Bufferization of Tensor Programs</b> (<a href="https://mlir.llvm.org/OpenMeetings/2022-01-13-One-Shot-Bufferization.pdf">Slides</a>, <a href="https://www.youtube.com/watch?v=TXEo59CYS9A">Video Recording</a>). MLIR Open Design Meeting (virtual). January 13, 2022.</small>
+                        </dd>
+                        <dt><small>RFCs</small></dt>
+                        <dd>
+                        <small><ul>
+                            <li><a href="https://discourse.llvm.org/t/rfc-runtime-op-verification/66776">Runtime Op Verification</a></li>
+                            <li><a href="https://discourse.llvm.org/t/rfc-canonicalizerpass-convergence-error-handling/67333"><code>CanonicalizerPass</code> Convergence / Error Handling</a></li>
+                            <li><a href="https://discourse.llvm.org/t/discussion-fuzzing-pattern-application/67911">Fuzzing Pattern Application</a></li>
+                            <li><a href="https://discourse.llvm.org/t/rfc-composition-based-listener-for-rewriterbase/68198">Composition-based Listener for <code>RewriterBase</code></a></li>
+                            <li><a href="https://discourse.llvm.org/t/rfc-valueboundsopinterface-compute-bounds-of-index-values-dyn-dim-sizes/69174"><code>ValueBoundsOpInterface</code>: Compute Bounds of Index Values / Dynamic Dimension Sizes</a></li>
+                            <li><a href="https://discourse.llvm.org/t/rfc-shapedtype-type-interface-cleanup/69998/1"><code>ShapedType</code> Type Interface Cleanup</a></li>
+                            <li><a href="https://discourse.llvm.org/t/rfc-more-opfoldresult-and-mixed-indices-in-ops-that-deal-with-shaped-values/72510">More <code>OpFoldResult</code> and "Mixed Indices" in Ops that Deal with Shaped Values</a></li>
+                        </ul></small>
+                        </dd>
+                    </dl>
+                    </section>
                     <hr/>
                     <li><div id="viewport"><img src="img/titech_logo.png" class="img-logo"><span><b>Ikra:</b> Object-oriented High Performance Computing on GPUs and CPUs.
                     <div><small style="padding-bottom:5px">(with <a href="http://prg.is.titech.ac.jp/people/masuhara/">Hidehiko Masuhara</a>)</small></div>
